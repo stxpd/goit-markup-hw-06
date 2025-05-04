@@ -1247,4 +1247,26 @@ input:checked + .label-checkbox > .privacy-checkbox {
 }
 
 @media screen and (min-width: 1158px) {
+  .icon-close-btn:hover,
+  .icon-close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+
+  .icon-close-btn:hover .icon-close,
+  .icon-close-btn:focus .icon-close {
+    fill: #fff;
+  }
+
+  .input-modal:focus {
+    border-color: #4d5ae5;
+  }
+
+  .textarea-modal:focus {
+    border-color: #4d5ae5;
+  }
+
+  .input-wrapper:focus-within .modal-btn-icon {
+    fill: #4d5ae5;
+  }
 }
